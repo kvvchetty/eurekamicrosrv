@@ -1,0 +1,17 @@
+
+
+
+keytool -importkeystore -srckeystore C:\Users\ngm86\.keystore -destkeystore C:\Users\ngm86\.keystore -deststoretype pkcs12
+
+
+keytool -importkeystore -srckeystore C:\Users\ngm86\temp\projects\wfb-taxie\taxie-ribbon-client\.keystore -destkeystore C:\Users\ngm86\temp\projects\wfb-taxie\taxie-ribbon-client\.keystore -deststoretype pkcs12
+
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kvvchetty/eurekamicrosrv.git
+git push -u origin master
+
